@@ -1,0 +1,58 @@
+
+.container-book{
+    margin: 50px auto;
+    border: 1px solid #000;
+    border-radius: 1%;
+    width: 500px;
+    padding: 10px;
+    background-color: rgba(210, 230, 210, 0.548);
+}
+.container-book-edit{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 1%;
+    padding: 20px;
+    margin: 10px;
+}
+form > div{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.buttonSubmit{
+    margin: 10px auto;
+    width: 20%;
+    grid-template-columns: 1fr;
+}
+.line{
+    border-bottom: 1px solid rgb(155, 154, 154);
+    grid-template-columns: 1fr;
+    
+}
+
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+  }
+  
+  .alert.success {background-color: #4CAF50; display: none;}
+  
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }
